@@ -24,11 +24,12 @@ You can find the .m3u files you backed up in this directory:
 ## How can I sort the songs in a playlist?
 Sorting playlist isn't available for now
 
-## What does the last added & recently played interval settings do?**
+## What does the last added & recently played interval settings do?
 The recently added section only shows the songs for a certain time period.
 If you turn it to a week only those songs will appear which has been added in the time interval of a week.
 Anything before that won't show up in the 'last added' list.
 
+---
 
 # TAGS RELATED QUESTIONS
 
@@ -61,6 +62,7 @@ Incase you are not satisfied by the replaygain value, you can set preamp which g
     preamp value = p
     new replaygain value = r+p
 
+---
 
 # LYRICS RELATED QUESTIONS
 
@@ -83,6 +85,7 @@ example:-
 [offset:-100]
 `+ shifts time up, - shifts time down`
 
+---
 
 # AUDIO AND FORMAT RELATED QUESTIONS
 
@@ -96,6 +99,7 @@ The supported audio formats depend on your phone, if it is able to play the form
 Some commonly supported formats are mp3, flac and wav
 and commonly unsupported formats are alac, wavpack
 
+---
 
 # OTHER QUESTIONS
 
