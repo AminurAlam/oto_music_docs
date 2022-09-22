@@ -101,6 +101,22 @@ and commonly unsupported formats are alac, wavpack
 
 ---
 
+# TRANSLATION
+
+## How can I help with translation?
+you can ask the dev to get a link to the translation website
+you can check what languages are available to be translated link
+if the language you want to translate isn't here then ask the Dev to open it.
+
+## How do I enable translation?
+there's no in app option to change language
+you'll have to go to phone's settings and change language
+
+## There is an error in translation
+you can ask the user who did the translation to fix it
+
+---
+
 # OTHER QUESTIONS
 
 ## Oto doesn't show the songs I've downloaded
