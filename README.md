@@ -1,10 +1,10 @@
-# Oto Music Documentation
+## Oto Music Documentation
 
 
-# PLAYLIST RELATED QUESTIONS
+## PLAYLIST RELATED QUESTIONS
 
 
-## How do I backup or save playlists?
+#### How do I backup or save playlists?
  - go to the playlist tab
  - select playlists you want to save by long pressing on them
  - a bar will apper on top
@@ -18,20 +18,20 @@ Other method (this also works with the Favourites and History):
  - select 'Save as file'
 
 
-## Where are the saved playlists located?
+#### Where are the saved playlists located?
 You can find the .m3u files you backed up in this directory:
 
 `Internal Storage/Playlists/Oto Music/playlist_name.m3u`
 
 
-## How do I import the saved playlist?
+#### How do I import the saved playlist?
  - go to the playlist tab
  - click on the floating button with '+' symbol
  - select 'Import playlist' to load playlists that you saved in a file
  - you can also select 'External playlist' to import from other apps
 
 
-## What does the last added & recently played interval settings do?
+#### What does the last added & recently played interval settings do?
 The recently added section only shows the songs for a certain time period.
 If you change it to 'This Week' then, only songs you have added this week will appear.
 Anything before that won't show up in the 'last added' list.
@@ -40,10 +40,10 @@ Anything before that won't show up in the 'last added' list.
 ---
 
 
-# TAGS RELATED QUESTIONS
+## TAGS RELATED QUESTIONS
 
 
-## What are the meaning of the tags in oto?
+#### What are the meaning of the tags in oto?
 
 | Tag           | Description     |
 |-------------- | --------------- |
@@ -62,106 +62,112 @@ Anything before that won't show up in the 'last added' list.
 more tag details at [nch](https://www.nch.com.au/kb/10061.html)
 
 
-## What is ReplayGain ?
+#### What is ReplayGain ?
 Sometimes a track is pretty loud but the next one is really quiet.
 Replay gain adjusts the volume and tries to make all tracks you play have the same basic subjective loudness.
 This avoids the common problem of having to manually adjust volume levels between track.
 
 
-## How do I use ReplyGain ?
+#### How do I use ReplyGain ?
 You can use tag editors to change replay gain tags.
 Oto currently doesn't support editing ReplayGain tag.
 
 
-## What is ReplayGain preamp ?
-Incase you are not satisfied by the replaygain value, you can set preamp which gets added or substracted to the replaygain value.
+#### What is ReplayGain preamp ?
+Incase you are not satisfied by the replaygain value, you can set preamp which gets added to the replaygain value.
 
+```
     o = original replaygain value
-
     p = preamp value
-
     new replaygain value = r + p
+```
 
 
 ---
 
 
-# LYRICS RELATED QUESTIONS
+## LYRICS RELATED QUESTIONS
 
 
-## How to download and use synced lyrics ?
+#### How to download and use synced lyrics ?
 There's an inbuilt button to download synced lyrics, which can search for lyrics.
 You can manually download lyrics from [syair](https://www.syair.info)
 You can  either copy/paste the text(aka embedding) or download `lrc` files
 (you'll need to make sure the song and lyrics have same file name)
 
 
-## What is a .lrc file ?
+#### What is a .lrc file ?
 The LRC file type is primarily a Lyric File.
 When an audio file is played on supported players, the song lyrics are displayed.
 The LRC format is text-based and works the same way video subtitles work.
 The lyrics file generally has the same name as the audio file, with a different filename extension.
 
 For example:
+```py
+'song name.flac' and 'song name.lrc'
+```
 
-    `song name.flac` and `song name.lrc`
 
-
-## How can  I delay synced lyrics and match it with sound ?
+#### How can  I delay synced lyrics and match it with sound ?
 Synced lyrics has it own tags like [ar: ] and [ti: ]. You can use the tag [offset: ] to sync the lyrics.
 
 Example:
-
-    [ar:Paramore]
-
-    [ti:Optimistic]
-
-    [al:RIOT!]
-
-    [offset:-100]
-
-    `+ shifts time up, - shifts time down`
+```toml
+[ar:Paramore]
+[ti:Optimistic]
+[al:RIOT!]
+[offset:-100]
+```
++ shifts time up, - shifts time down
 
 
 ---
 
 
-# AUDIO AND FORMAT RELATED QUESTIONS
+## AUDIO AND FORMAT RELATED QUESTIONS
 
 
-## Does oto support Flac/Hi-Res/24 bit audio?
+#### Does oto support Flac/Hi-Res/24 bit audio?
 Oto is just an app an, the thing responsible for audio playback is your android device
 if your phone supports 24 bit hires audio then oto can play it
 Same with audio format, if your device supports the format then Oto will be able to play it
 
-## What audio formats does Oto support?
+
+#### What audio formats does Oto support?
 The supported audio formats depend on your phone, if it is able to play the format then oto will be able to play them too.
 
 Some popular supported formats are mp3, flac and wav.
-
 Usually unsupported formats are alac, wavpack etc.
+
 
 ---
 
-# TRANSLATION
 
-## How can I help with translation?
+## TRANSLATION
+
+
+#### How can I help with translation?
 you can ask the dev to get a link to the translation website
 you can check what languages are available to be translated link
 if the language you want to translate isn't here then ask the Dev to open it.
 
-## How do I enable translation?
+
+#### How do I enable translation?
 there's no in app option to change language
 you'll have to go to phone's settings and change language
 
-## There is an error in translation
+
+#### There is an error in translation
 you can ask the user who did the translation to fix it
+
 
 ---
 
-# OTHER QUESTIONS
 
-## Oto doesn't show the songs I've downloaded
+## OTHER QUESTIONS
+
+
+#### Oto doesn't show the songs I've downloaded
  - Go to Settings and change 'Filter Song by Duration' to zero
  - Check if your music folder contains a '.nomedia' file. Delete it if you have it. It's a hidden file so make sure to enable hidden files/folders in your file manager
  - Try manually scanning the media folder or reboot to refresh the media store. The scan option is available in the folder tab.
@@ -171,5 +177,6 @@ you can ask the user who did the translation to fix it
  - you can submit your email to Piyush so he can add it to beta. after being approved you'll see a "join beta" button in playstore
  - if you are not in beta don't worry, the apk will be uploaded here
 
-## What is a  cue sheet ?
+
+#### What is a  cue sheet ?
 A cue file is a text file that defines the way tracks are organized on compact discs (CDs). It may contain the song name, performer, and length of each track on the disc. The cue file helps to identify where a track begins & ends, because a CD has the songs in one single file instead of being separated.
