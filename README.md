@@ -107,8 +107,9 @@ Example:
 #### What audio formats does Oto support?
 The supported audio formats depend on the phone, if it can play the format then Oto will be able to play them too.
 
-Some popular supported formats are mp3, flac, wav, ...
-Usually unsupported formats are alac, wavpack, ...
+Some popular supported formats are mp3, flac, wav, etc
+
+Usually unsupported formats are alac & wavpack
 
 ---
 
